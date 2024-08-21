@@ -115,6 +115,6 @@ def read_args():
   args = parser.parse_args()
   return args
 
-pp_version_info = "1.2"
+pp_version_info = "1.3"
 args = read_args()
 main(args.project, args.library, args.debugger, args.verbose)
